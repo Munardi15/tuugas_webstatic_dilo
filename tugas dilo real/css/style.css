@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header .jumbotron{
+	background-image: url('../img/8478.jpg');
+	background-attachment: fixed;
+	min-height: 600px;
+
+}
+
+.jumbotron img{
+	margin-top: 100px;
+	border:	10px solid #eaeaea;
+}
+#home .jumbotron h1, #home .jumbotron p {
+	color: #eaeaea;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+}
+
+.about .jumbotron {
+	background-image: url('../img/office.jpg');
+	background-attachment: fixed;
+
+}
+
+.folio .jumbotron {
+	background-image: url('../img/biru.jpg');
+	background-attachment: fixed;
+}
+
+.folio .jumbotron h2 {
+	color: #eaeaea;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+}
+
+.kontak .jumbotron{
+	background-image: url('../img/telp.jpg');
+	background-color: #eee;
+}
+.kontak h2, .kontak label {
+	color: #eaeaea;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.7);	
+}
+
+hr{
+	width: 250px;
+	border-top: 4px solid #999;
+}
+
+
+section h2 {
+	margin-top: 60px;
+}
+
+#about p {
+	color: black;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.7);
+}
+
+section	{
+	min-height: 800px;
+}
+
+footer {
+	background-color: #aaa;
+	height: 100px;
+	padding: 5px;
+	margin-top: 25px;
+}
+
+footer p {
+	margin-top: 25px;
+	font-size: 1.5em;
+}
